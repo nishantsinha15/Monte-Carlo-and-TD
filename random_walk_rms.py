@@ -82,10 +82,7 @@ def main():
         e /= 100
         error2.append(e)
     plt.plot(np.asarray(error1).T, 'b', np.asarray(error2).T, 'r')
-
-
     plt.savefig('randomwalk2.png')
 
 
-# mc()
 main()
